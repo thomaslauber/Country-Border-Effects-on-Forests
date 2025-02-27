@@ -7,4 +7,4 @@ The scripts are order the following way:
 - "Country\_Borders\_Custom\_Tiling.js" creates a feature collection of bounding polygons to use when parallelizing the conversion of the raster image from the previous script; this feature collection can then be looped through to export all pixels from the main image;
 - "Parallelize\_Country\_Borders\_Raster\_to\_CSV.ipynb" parallelizes the conversion of the covariate / country neighbor raster into tabular format;
 - "Country\_Borders\_Complete\_Wide\_to\_Long.ipynb" takes the output tables from the previous script and formats them for the PI to use within his country borders comparison tools; !! N.B., it requires the creation and placement of specific directories for temporarily holding values;
-- "Country\_Borders\_Global\_Country\_Values.js" is an analysis script used to create (area weighted) country level values for the countries of interest;
+- "Country\_Borders\_Global\_Country\_Values.js" is an analysis script used to create (area weighted) country level values for the countries of interest.
